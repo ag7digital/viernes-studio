@@ -18,7 +18,7 @@ export default function VideoCorporativo() {
             src={
               isMobile
                 ? "/images/video-corporativo-header-bg-mobile.png"
-                : "/images/video-corporativo-header-bg.png"
+                : "/images/corporate-header.png"
             }
             className="object-fill"
             fill
@@ -42,19 +42,19 @@ export default function VideoCorporativo() {
           )}
           <div className="flex flex-col w-full justify-center">
             <h2 className="moon text-white text-5xl mt-10 md:mt-0">
-              Corporativo
+              Corporate
             </h2>
             <h3 className="spicy text-white text-3xl md:text-5xl mt-4">
-              ¡Tu empresa tiene muchas historias que contar!
+              Your company has many stories to tell!
             </h3>
             <p className="montserrat text-black mt-5 font-medium text-[1.2rem] md:text-[1.3rem]">
-              Comunica el PROPÓSITO de la empresa, los videos corporativos están
-              hechos para construir una comunidad basada en sus VALORES Y
-              CREENCIAS, lo que mejora el POSICIONAMIENTO DE MARCA. Un VIDEO
-              CORPORATIVO no busca PROMOVER sus productos o servicios, sino
-              destacar la CULTURA organizacional, su historia y personal, para
-              así crear una CONEXIÓN EMOCIONAL con la audiencia, además de
-              DIFERENCIARSE de la competencia.
+              Convey the company's PORPUSE. Corporate videos are designed to
+              build a COMMUNITY base don its VALUES and beliefs, which enchances
+              BRAND positioning. A corporate video does not aim to promote
+              products or services, but rather to highlight the organizational
+              CULTURE, its history, and iths staff; in order to créate an
+              EMOTIONAL connection with the audience and differentiate itself
+              from the competition.
             </p>
             <div className="flex flex-col mt-5 text-black font-medium montserrat pb-10">
               <ul>
@@ -68,7 +68,7 @@ export default function VideoCorporativo() {
                       className="mr-2"
                     />
                     <span className="montserrat  md:text-[1.2rem]">
-                      Aumento de compromiso de la comunidad
+                      Increased community engagement
                     </span>
                   </div>
                 </li>
@@ -82,7 +82,7 @@ export default function VideoCorporativo() {
                       className="mr-2"
                     />
                     <span className="montserrat  md:text-[1.2rem]">
-                      Incremento en el posicionamiento de la marca
+                      Improved Brand positioning
                     </span>
                   </div>
                 </li>
@@ -96,7 +96,7 @@ export default function VideoCorporativo() {
                       className="mr-2"
                     />
                     <span className="montserrat  md:text-[1.2rem]">
-                      Atracción de talento humano
+                      Attraction of Human Talent
                     </span>
                   </div>
                 </li>
