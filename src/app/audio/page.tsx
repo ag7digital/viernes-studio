@@ -8,13 +8,13 @@ export default function Audio() {
     <>
       <div className="flex items-center justify-center w-full bg-[url(/images/bg-header-audio.png)] bg-no-repeat md:min-h-[50vh] h-screen py-10">
         <div className="flex items-center justify-center">
-          <div className="moon text-white text-2xl sm:text-4xl md:text-6xl leading-10 md:leading-19 w-[65%] text-center">
-            Cada producción es una oportunidad para
-            <span className="text-[#a2c791] "> crear</span>, sorprender y
-            <span className="text-[#a2c791] "> conectar</span>
-            con el público de manera
-            <span className="text-[#a2c791]"> auténtica </span>y
-            <span className="text-[#a2c791]"> efectiva.</span>
+          <div className="moon text-white text-2xl sm:text-4xl md:text-5xl leading-10 md:leading-19 w-[65%] text-center">
+            Every production is an opportunity to
+            <span className="text-[#a2c791] "> CREATE </span>, captivate, and
+            <span className="text-[#a2c791] "> CONNECT </span>
+            with your audience in an
+            <span className="text-[#a2c791]"> AUTHENTIC </span> and
+            <span className="text-[#a2c791]"> IMPACTFUL </span> way
           </div>
         </div>
       </div>
@@ -25,16 +25,16 @@ export default function Audio() {
       </div>
       <div className="flex items-center justify-center px-10 md:px-30">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 w-[100%] md:w-[70%] sm:w-[100%]">
-          {/** Cuña radial */}
+          {/** Radio Spot */}
           <div className="flex flex-col h-[300px] justify-around">
             <span className="spicy text-[#3cc6af] text-5xl md:text-6xl">
-              Cuña Radial
+              Radio Spot
             </span>
             <p className="montserrat tx-gray">
-              <b>CREAMOS</b> mensajes que <b>CONECTAN</b>, ajustando cada cuña
-              al tono y personalidad de tu <b>MARCA</b>. Damos voz a tus ideas
-              con creatividad y enfoque, logrando una <b>COMUNICACIÓN</b> clara,
-              memorable y auténtica.
+              We <b>CREATE</b> messages that truly <b>CONNECT</b>, tailoring
+              each radio spot to your <b>BRAND's</b>. tone and personality. We
+              give voice to your ideas with creativity and focus, achieving{" "}
+              <b>COMMUNICATION</b> that is clear, memorable, and authentic.
             </p>
             <Button className="moon bg-[#b1d8ef] hover:bg-[#b1d8ef]  tx-gray w-[80px] text-1xl mt-5">
               <a
@@ -54,10 +54,10 @@ export default function Audio() {
               Podcast
             </span>
             <p className="montserrat tx-gray">
-              Transformamos <b>IDEAS,</b> en voces que conectan. Producimos
-              podcasts con narrativas claras y cautivadoras, cuidando cada
-              detalle para que tu <b>MENSAJE</b> resuene y deje una impresión
-              duradera.
+              We turn <b>IDEAS</b> into voices that resonate. We produce
+              podcasts with crear, compelling narratives, carefully crafted to
+              ensure your <b>MESSAGE</b> stands out and leaves a lasting
+              impresion.
             </p>
             <Button className="moon bg-[#b1d8ef] hover:bg-[#b1d8ef]  tx-gray w-[80px] text-1xl mt-5">
               <a
@@ -71,16 +71,16 @@ export default function Audio() {
             </Button>
           </div>
 
-          {/** Producción Musical IA */}
+          {/** AI Music Production */}
           <div className="flex flex-col h-[300px] justify-around">
             <span className="spicy text-[#3cc6af] text-5xl md:text-5xl">
-              Producción Musical IA
+              AI Music Production
             </span>
             <p className="montserrat tx-gray">
-              La IA redefine la manera de <b>CREAR</b> experiencias sonoras. Con
-              <b>VERSATILIDAD</b> y estilo, desarrollamos música a medida para
-              radio, eventos y campañas <b>BTL</b>. Desde ritmos que enganchan
-              hasta melodías que <b>IMPACTAN</b>.
+              AI is redefining how we <b>CREATE</b> Sonic experiences. With
+              <b>VERSATILITY</b> and style, we develop custom music for radio,
+              events and <b>BTL</b>. ampaigns from catchy rhythms to melodies
+              that truly make an <b>IMPACT</b>.
             </p>
             <Button className="moon bg-[#b1d8ef] hover:bg-[#b1d8ef]  tx-gray w-[80px] text-1xl mt-5">
               <a
