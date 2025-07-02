@@ -30,7 +30,7 @@ export default function BlogForm() {
     setIsSubmitting(true);
 
     const portalId = process.env.NEXT_PUBLIC_HUBSPOT_PORTAL_ID;
-    const formId = process.env.NEXT_PUBLIC_HUBSPOT_FORM_BLOG_ES_ID;
+    const formId = process.env.NEXT_PUBLIC_HUBSPOT_FORM_BLOG_ID;
 
     const endpoint = `https://api.hsforms.com/submissions/v3/integration/submit/${portalId}/${formId}`;
 
@@ -86,7 +86,7 @@ export default function BlogForm() {
               htmlFor="nombre"
               className="text-white montserrat text-[0.8rem] font-bold"
             >
-              Nombre
+              First Name
               <span className="text-red-800 ml-1">*</span>
             </label>
             <input
@@ -120,7 +120,7 @@ export default function BlogForm() {
               htmlFor="empresa"
               className="text-white montserrat text-[0.8rem] font-bold"
             >
-              Empresa
+              Company
               <span className="text-red-800 ml-1">*</span>
             </label>
             <input

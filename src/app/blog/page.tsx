@@ -32,7 +32,7 @@ export default async function Blog(props: {
   const perPage = 9;
   // Busque os posts do WordPress
   const res = await fetch(
-    `https://somosviernes.com/wp-json/wp/v2/posts?per_page=${perPage}&page=${page}&order=desc&orderby=date&_embed&status=publish`,
+    `https://viernes-studio.com/wp-json/wp/v2/posts?per_page=${perPage}&page=${page}&order=desc&orderby=date&_embed&status=publish&categories_exclude=6`,
     {
       cache: "no-store",
     },

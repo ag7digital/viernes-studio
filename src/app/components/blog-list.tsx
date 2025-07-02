@@ -72,7 +72,7 @@ export default function BlogList({ posts, page, totalPages }: BlogListProps) {
                 )}
               </div>
               <div
-                className="mt-2 tx-gray montserrat"
+                className="mt-2 tx-gray montserrat text-[0.9rem]"
                 dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}
               />
             </li>

@@ -3,6 +3,7 @@ import { CategoryType, PostType } from "@/app/types/post.type";
 import HeaderBlog from "@/app/components/header-blog";
 import "./blog.css";
 import { Metadata, ResolvingMetadata } from "next";
+import Image from "next/image";
 
 function formatDate(dateString: string) {
   const date = new Date(dateString);
@@ -13,11 +14,14 @@ function formatDate(dateString: string) {
   });
 }
 
-export async function generateMetadata(props: { params: Promise<{ slug: string }> }, _parent: ResolvingMetadata): Promise<Metadata> {
+export async function generateMetadata(
+  props: { params: Promise<{ slug: string }> },
+  _parent: ResolvingMetadata,
+): Promise<Metadata> {
   const params = await props.params;
   // Faça fetch dos dados do post, por exemplo:
   const res = await fetch(
-    `https://somosviernes.com/wp-json/wp/v2/posts?slug=${params.slug}`,
+    `https://viernes-studio.com/wp-json/wp/v2/posts?slug=${params.slug}`,
   );
   const posts = await res.json();
   const post = posts[0];
@@ -34,7 +38,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
     openGraph: {
       title: post.title.rendered,
       description: post.excerpt?.rendered.replace(/<[^>]+>/g, "") || "",
-      url: `https://es.viernes-studio.com/blog/${post.slug}`,
+      url: `https://viernes-studio.com/blog/${post.slug}`,
       type: "article",
       images: [
         {
@@ -50,7 +54,7 @@ export default async function BlogPostPage(props: {
 }) {
   const params = await props.params;
   const res = await fetch(
-    `https://somosviernes.com/wp-json/wp/v2/posts?slug=${params.slug}&_embed`,
+    `https://viernes-studio.com/wp-json/wp/v2/posts?slug=${params.slug}&_embed`,
     {
       cache: "no-store",
     },
@@ -66,6 +70,10 @@ export default async function BlogPostPage(props: {
   const categories = post._embedded?.["wp:term"]?.[0] as
     | CategoryType[]
     | undefined;
+
+  const featuredImage = post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
+  const altText =
+    post._embedded?.["wp:featuredmedia"]?.[0]?.alt_text || post.title.rendered;
 
   return (
     <>
@@ -91,6 +99,16 @@ export default async function BlogPostPage(props: {
                 </span>
               )}
             </div>
+
+            {featuredImage && (
+              <Image
+                src={featuredImage}
+                alt={altText}
+                width={900}
+                height={400}
+                className="w-full  object-cover rounded-2xl mb-6"
+              />
+            )}
 
             <div
               id="post_content"

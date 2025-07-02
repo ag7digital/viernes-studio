@@ -21,8 +21,8 @@ export default function HeaderBlog() {
             alt="Logo Blog"
           />
           <h2 className="cardenio text-white text-3xl">
-            Este es un espacio donde las ideas, la creatividad y el conocimiento
-            vuelan… ¡Tan alto como nuestro avión!
+            This is a space where ideas, creativity and knowledge fly... As high
+            as our plane!
           </h2>
         </div>
       </div>
