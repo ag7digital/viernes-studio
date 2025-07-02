@@ -22,7 +22,7 @@ export default function Hero() {
           <div className="flex flex-col items-center">
             <div className="flex flex-col items-center">
               <span className="spicy text-white text-6xl content-center">
-               Do you know the classic <br />
+                Do you know the classic <br />
               </span>
               <span className="moon text-white text-[1.2rem] md:text-2xl content-center uppercase">
                 "strategic communication disorder"?
@@ -35,15 +35,15 @@ export default function Hero() {
             </div>
             <div className="flex items-center justify-center mt-4 p-4">
               <p className="montserrat text-xl md:text-2xl tx-gray m-4 text-center">
-                <span className="font-bold">EFFECTIVELY</span> communicating with
-                an audience to achieve
-                <span className="font-bold"> GOALS</span> is a common concern across
-                all industries today.
+                <span className="font-bold">EFFECTIVELY</span> communicating
+                with an audience to achieve
+                <span className="font-bold"> GOALS</span> is a common concern
+                across all industries today.
               </p>
             </div>
 
             <div className="pt-4">
-              <Link href="/nosotros">
+              <Link href="/about">
                 <Button className="moon tx-gray bg-white hover:bg-white/90 text-gray-800 text-3xl font-medium px-10 py-8 rounded-xl cursor-pointer ">
                   About us
                 </Button>
@@ -54,11 +54,12 @@ export default function Hero() {
         {/* Bottom section */}
         <div className="mt-12 md:mt-20 text-center max-w-4xl mx-auto text-white">
           <p className="montserrat tx-gray text-xl md:text-2xl">
-            Dr. Jones is an expert who consults with hundreds of professionals with the classic{" "}
+            Dr. Jones is an expert who consults with hundreds of professionals
+            with the classic{" "}
             <span className="font-bold">
-              &quot;Strategic Communication Disorder&quot;. 
-            </span>
-            {" "}  Learn how he helps them and why he trusts his therapies at
+              &quot;Strategic Communication Disorder&quot;.
+            </span>{" "}
+            Learn how he helps them and why he trusts his therapies at
             <span className="font-bold"> VIERNES STUDIO</span>.
           </p>
         </div>

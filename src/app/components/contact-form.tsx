@@ -58,7 +58,7 @@ export default function ContactForm() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          ¿Necesita un video?
+          Do you need a video?
         </motion.h2>
         <motion.h3
           className="moon tx-gray text-2xl md:text-4xl font-bold tracking-wide text-center mb-16 mt-5"
@@ -67,7 +67,7 @@ export default function ContactForm() {
           transition={{ duration: 0.6, delay: 0.4 }}
           viewport={{ once: true }}
         >
-          Llámese a los de viernes
+          CALL US AT VIERNES
         </motion.h3>
 
         <motion.form
@@ -84,7 +84,7 @@ export default function ContactForm() {
               <input
                 type="text"
                 name="nombre"
-                placeholder="Nombre"
+                placeholder="First Name"
                 value={formData.nombre}
                 onChange={handleInputChange}
                 required
@@ -95,7 +95,7 @@ export default function ContactForm() {
               <input
                 type="text"
                 name="apellido"
-                placeholder="Apellido"
+                placeholder="Last Name"
                 value={formData.apellido}
                 onChange={handleInputChange}
                 required
@@ -109,7 +109,7 @@ export default function ContactForm() {
             <input
               type="email"
               name="email"
-              placeholder="Correo Electrónico"
+              placeholder="E-mail"
               value={formData.email}
               onChange={handleInputChange}
               required
@@ -121,7 +121,7 @@ export default function ContactForm() {
           <div>
             <textarea
               name="mensaje"
-              placeholder="Mensaje"
+              placeholder="Message"
               value={formData.mensaje}
               onChange={handleInputChange}
               required
@@ -145,15 +145,15 @@ export default function ContactForm() {
               htmlFor="acceptPolicy"
               className="montserrat text-sm tx-gray leading-relaxed"
             >
-              Autorizo a Viernes Estrategia Audiovisual, para enviarme la
-              información solicitada y registrar los datos que he suministrado
-              de manera libre y voluntaria en su base de datos y que serán
-              tratados de acuerdo a la{" "}
+              I authorize Viernes Estratégia Audiovisual to send me the
+              requested information and register the data that I have freely and
+              voluntarily provided in its database and which will be treated in
+              accordance with the{" "}
               <Link
                 href="/politica-privacidad"
                 className="text-teal-600 underline cursor-pointer hover:text-teal-700"
               >
-                Política de Protección de Datos
+                Data Protection Policy
               </Link>
             </label>
           </div>
