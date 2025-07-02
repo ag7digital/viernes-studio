@@ -8,10 +8,10 @@ export default function Branding() {
       <div className="flex items-center justify-center w-full bg-[url(/images/bg-branding.png)] bg-no-repeat h-screen md:min-h-[50vh] py-8">
         <div className="flex items-center justify-center">
           <div className="playfulist text-white text-3xl sm:text-4xl md:text-6xl leading-8 md:leading-19 w-full md:w-[65%] px-10 text-center">
-            <span className="text-[#f2b346] ">Investigamos</span>, diseñamos y
-            planificamos cada detalle para que tu
-            <span className="text-[#f2b346] "> MARCA </span>transmita su
-            personalidad y un propósito bien definido.
+            <span className="text-[#f2b346] ">We research</span>, design, and
+            plan every detail to ensure your
+            <span className="text-[#f2b346] "> BRAND </span>reflects its
+            personality and clearly defined purpose.
           </div>
         </div>
       </div>
@@ -22,13 +22,13 @@ export default function Branding() {
               Branding & Design
             </p>
             <p className="montserrat tx-gray font-bold mt-5">
-              Convertimos tu visión en una identidad sólida, que no solo se ve
-              bien, sino que proyecta propósito y coherencia.
+              We turn your visión into a strong identity that not only looks
+              Good but conveys purpose and consistency.
             </p>
             <p className="montserrat tx-gray font-bold mt-5">
-              Desde el concepto hasta las piezas clave, construimos identidades
-              memorables que conectan, se destacan en el mercado y expresan con
-              claridad lo que tu marca representa.
+              From concept t okey Brand assets, we build memorable identities
+              that connect, stand out in the market, and clearly express what
+              your Brand stands for.
             </p>
           </div>
 
@@ -37,9 +37,9 @@ export default function Branding() {
               brand design:
             </span>
             <p className="montserrat tx-gray mt-5 text-1xl">
-              Creamos marcas que representan de manera profesional y efectiva la
-              identidad corporativa de tu empresa, destacando sus valores y
-              posicionamiento.
+              We create brands that professionally and effectively represent
+              your company's corporate identity, highlighting its values and
+              positioning.
             </p>
           </div>
 
@@ -48,21 +48,21 @@ export default function Branding() {
               brand guidelines:
             </span>
             <p className="montserrat tx-gray mt-5 text-1xl">
-              Diseñamos manuales que cuentan la historia de tu marca, alineando
-              cada detalle visual y conceptual para transmitir su esencia y
-              personalidad.
+              We design Brand manuals that tell your brand's story, aligning
+              every visual and conceptual detail to convey its essence and
+              personality.
             </p>
           </div>
 
           <div className="flex flex-col items-center justify-center bg-white rounded-2xl w-[80%] px-10 text-center">
             <span className="cardenio tx-gray text-4xl font-bold">
-              Piezas alineadas a la estrategia:
+              designs aligned with strategy:
             </span>
             <p className="montserrat tx-gray mt-5 text-1xl">
-              Diseñamos piezas gráficas alineadas con la estrategia de cada
-              campaña. Cada elemento gráfico responde a una intención: reforzar
-              el mensaje, mantener la coherencia visual y generar conexión real
-              con tu audiencia.
+              We design graphic assets aligned with each campaign's strategy.
+              Every visual element is intentional, reinforcing your message,
+              maintaining visual consistency, and creating meaningful connection
+              with your audience.
             </p>
           </div>
         </div>
