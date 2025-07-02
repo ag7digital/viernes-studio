@@ -20,18 +20,22 @@ export default function PricingHome() {
                   alt="Keep it simple therapy button"
                 />
               </Link>
-              <Image
-                src="/images/mib-button.png"
-                width={350}
-                height={150}
-                alt="Make it better therapy button"
-              />
-              <Image
-                src="/images/gb-button.png"
-                width={350}
-                height={150}
-                alt="Go beyond therapy button"
-              />
+              <Link href="/pricing/#make-it-better">
+                <Image
+                  src="/images/mib-button.png"
+                  width={350}
+                  height={150}
+                  alt="Make it better therapy button"
+                />
+              </Link>
+              <Link href="/pricing/#go-beyond">
+                <Image
+                  src="/images/gb-button.png"
+                  width={350}
+                  height={150}
+                  alt="Go beyond therapy button"
+                />
+              </Link>
             </div>
             <div className="flex flex-col ml-50 w-full items-center">
               <div className="flex text-white flex-col items-center">
@@ -49,18 +53,22 @@ export default function PricingHome() {
                 </p>
               </div>
               <div className="flex flex-col gap-10 mt-10">
-                <Image
-                  src="/images/avatar-button.png"
-                  width={350}
-                  height={150}
-                  alt="Make it better therapy button"
-                />
-                <Image
-                  src="/images/infinite-zoom-button.png"
-                  width={350}
-                  height={150}
-                  alt="Make it better therapy button"
-                />
+                <Link href="/pricing/#infinite-zoom">
+                  <Image
+                    src="/images/avatar-button.png"
+                    width={350}
+                    height={150}
+                    alt="Make it better therapy button"
+                  />
+                </Link>
+                <Link href="/pricing/#avatar">
+                  <Image
+                    src="/images/infinite-zoom-button.png"
+                    width={350}
+                    height={150}
+                    alt="Make it better therapy button"
+                  />
+                </Link>
               </div>
             </div>
           </div>

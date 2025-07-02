@@ -152,7 +152,7 @@ export default function Pricing() {
             duration="1 minute"
           />
 
-          <div id="zoom-infinite"></div>
+          <div id="infinite-zoom"></div>
           <MotionService
             avatarImg="/images/motion-zoom-infinito-avatar.png"
             backgroundImage="/images/pricing-infinity-zoom-bg.png"
