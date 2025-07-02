@@ -31,17 +31,16 @@ export default function VideoExplicativo() {
         <div className="flex md:w-[80%] w-full px-5 md:px-0 items-center justify-center">
           <div className="flex flex-col w-full justify-center md:ml-15">
             <h2 className="moon text-white text-5xl mt-10 md:mt-0">
-              Explicativo
+              Explainer Video
             </h2>
             <h3 className="spicy text-white text-3xl md:text-5xl mt-4">
-              ¡A la gente le encanta la claridad!
+              People love clarity!
             </h3>
             <p className="montserrat text-black mt-5 font-medium text-[1.2rem] md:text-[1.3rem]">
-              Los CLIENTES a menudo tienen dificultades para entender como
-              utilizar productos o servicios; estos VIDEOS simplifican
-              CONCEPTOS, PROCESOS e IDEAS que son complejas, cubren de manera
-              clara su funcionamiento, características y BENEFICIOS; después de
-              todo, las personas no COMPRAN lo que no entienden.
+              Customers often struggle to UNDERSTAND how to use products or
+              services; these VIDEOS simpligy complex CONCEPTS, PROCESSES, and
+              IDEAS; clearly covering their FUNCTIONALITY,FEATURES, and
+              BENEFITS. After all, people don't buy what they don't understand.
             </p>
             <div className="flex flex-col mt-5 text-black font-medium montserrat pb-10">
               <ul>
@@ -55,7 +54,7 @@ export default function VideoExplicativo() {
                       className="mr-2"
                     />
                     <span className="montserrat  md:text-[1.2rem]">
-                      Facilita la toma de decisiones
+                      Facilitates decisión-making
                     </span>
                   </div>
                 </li>
@@ -69,7 +68,7 @@ export default function VideoExplicativo() {
                       className="mr-2"
                     />
                     <span className="montserrat  md:text-[1.2rem]">
-                      Aumenta la tasa de conversión de ventas
+                      Increases sales conversión rate
                     </span>
                   </div>
                 </li>
@@ -83,7 +82,7 @@ export default function VideoExplicativo() {
                       className="mr-2"
                     />
                     <span className="montserrat  md:text-[1.2rem]">
-                      Refuerza el valor del producto
+                      Strengthens producto value
                     </span>
                   </div>
                 </li>

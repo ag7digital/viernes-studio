@@ -6,11 +6,11 @@ import { useIsMobile } from "../hooks/mobile";
 export default function VideoPromocional() {
   const isMobile = useIsMobile();
   const items = [
-    "Genera interés y deseo de compra",
-    "Diferencia el producto de la competencia",
-    "Aumenta la posibilidad de conversión en ventas",
-    "Permite alcanzar una audiencia más amplia",
-    "Incrementa el reconocimiento de la marca",
+    "Generates interest and desire to purchase",
+    "Differentiates the producto from the competition",
+    "Increases the possibility of conversión to sales",
+    "Allows reaching a higher audience",
+    "Increases Brand awareness",
   ];
 
   return (
@@ -50,18 +50,18 @@ export default function VideoPromocional() {
           )}
           <div className="flex flex-col w-full justify-center">
             <h2 className="moon text-white text-5xl mt-10 md:mt-0">
-              Video Promocional
+              Promotional Video
             </h2>
             <h3 className="spicy text-white text-3xl md:text-5xl mt-4">
-              ¡Es la piedra angular que impulsa las ventas!
+              It's the keystone because it drives sales!
             </h3>
             <p className="montserrat text-black mt-5 font-medium text-[1.2rem] md:text-[1.3rem]">
-              Es una herramienta CREATIVA clave en las campañas de marketing
-              para atraer al público objetivo, resaltar beneficios e impulsar
-              las ventas; genera interés en tus productos o servicios al
-              CONECTAR con tus clientes a través de STORYTELLING que resuena con
-              sus pain points, CREANDO un impacto emocional y una percepción
-              positiva de la marca.
+              It is a key CREATIVE tool in marketing campaigns to attract the
+              target audience, highlight benefits, and drive sales; it generates
+              interest in your products or services by CONNECTING with your
+              customers through STORYTELLING that resonates with their pain
+              points, CREATING an emotional impact and a positive perception of
+              the BRAND.
             </p>
             <div className="flex flex-col mt-5 text-black font-medium montserrat pb-10">
               <ul>

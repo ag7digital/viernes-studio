@@ -6,9 +6,9 @@ import { useIsMobile } from "../hooks/mobile";
 export default function VideoPromocional() {
   const isMobile = useIsMobile();
   const items = [
-    "Ahorro de tiempo y optimización de recursos",
-    "Aumento en la retención de información",
-    "Adaptabilidad a diferentes estilos de aprendizaje",
+    "Time and resource savings",
+    "Improved retention of information",
+    "Adaptability to different learning styles",
   ];
 
   return (
@@ -49,18 +49,17 @@ export default function VideoPromocional() {
           )}
           <div className="flex flex-col w-full justify-center">
             <h2 className="moon text-white text-4xl md:text-5xl mt-10 md:mt-0">
-              Video Capacitación
+              Training Video
             </h2>
             <h3 className="spicy text-white text-3xl md:text-5xl mt-4">
-              ¡Todos tenemos espacio para crecer y aprender!
+              We all have room to grow and learn!
             </h3>
             <p className="montserrat text-black mt-5 font-medium text-[1.2rem] md:text-[1.3rem]">
-              Su objetivo es ENSEÑAR de manera CLARA, RÁPIDA y MASIVA. Se
-              utiliza para capacitar a tus colaboradores en CONOCIMIENTOS
-              técnicos, procedimientos de seguridad, generalidades de la empresa
-              e instrucciones específicas para un puesto de trabajo; esta
-              herramienta, alcanza a grandes audiencias con un excelente
-              costo-beneficio.
+              Its goa lis to TEACH clearly, quickly, and a large scale; it is a
+              used to train your employees in technical KNOWLEDGE, safety
+              procedures, company generalities, and even specific job
+              instructions. This tool reaches large audiences with excellent
+              cost-effectiveness.
             </p>
             <div className="flex flex-col mt-5 text-black font-medium montserrat pb-10">
               <ul>
