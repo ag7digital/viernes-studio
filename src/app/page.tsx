@@ -8,6 +8,8 @@ import MotionDesignPower from "./components/motion-design-power";
 import { Button } from "./components/ui/button";
 import Portfolio from "./components/portfolio";
 import { useIsMobile } from "./hooks/mobile";
+import PricingHome from "./components/pricing-home";
+import PricingHomeMobile from "./components/pricing-home-mobile";
 
 export default function Home() {
   const isMobile = useIsMobile();
@@ -19,7 +21,7 @@ export default function Home() {
       role: "Head of Communications",
       avatar: "/images/logo-sidoc.svg",
       content:
-        "Conozco el trabajo de Viernes Studio desde hace más de 6 años y su gran diferencial es la dedicación, pasión e identidad con la que realizan cada proyecto. Viernes se involucra creativamente  y acompaña todo el proceso de creación para garantizar un producto diferencial, que logra reflejar el corazón de cada organización. Ese es su gran fuerte, no son productos genéricos buenos, son productos audiovisuales con alma.",
+        "I’ve known the work of Viernes Studio for over 6 years, and what sets them apart is their dedication, passion, and the unique identity they bring to every project. Viernes gets creatively involved and accompanies the entire creative process to ensure a standout product that truly reflects the heart of each organization. That’s their real strength, not just delivering high-quality generic products, but audiovisual pieces with soul.",
     },
     {
       id: 2,
@@ -27,7 +29,7 @@ export default function Home() {
       role: "Head Marketing and Communications-LATAM",
       avatar: "/images/logo-sika.svg",
       content:
-        "Llevo cerca de 6 años trabajando con Viernes como el proveedor de videos y soluciones audiovisuales para mis proyectos regionales, siempre a distancia; empecé con ellos cuando eran un equipo pequeño y los he visto crecer a través de los años; los recomiendo 100%, confío plenamente en su trabajo y los quiero un montón!!. Son un equipo creativo, recursivo, muy humano, amable y comprometido con cumplir las necesidades del cliente, aunque eso les implique un esfuerzo adicional. Son flexibles, no conocen un no por respuesta y sus tarifas son muy competitivas. Siempre están buscando mejorar e innovar para estar al día con las tendencias del mercado en temas audiovisuales, en fin, trabajar con Viernes es como tener un equipo de producción dentro de casa.",
+        "I’ve been working with Viernes for almost 6 years as my go-to provider for videos and audiovisual solutions for my regional projects, always remotely. I started with them when they were a small team, and I’ve watched them grow over the years. I recommend them 100%, I fully trust their work, and I care about them a lot! They’re a creative, resourceful, and genuinely kind team, committed to meeting the client's needs, even when that requires extra effort. They are flexible, never say 'no' to their clients, and their rates are very competitive. They're constantly striving to improve and innovate to stay on top of the latest audiovisual trends. In short, working with Viernes feels like having your own in-house production team.",
     },
     {
       id: 3,
@@ -35,7 +37,7 @@ export default function Home() {
       role: "Digital Marketing NORLA",
       avatar: "/images/logo-bayer.svg",
       content:
-        "Trabajar con Viernes Studio fue muy gratificante, su profesionalismo y agilidad permitió lograr nuestro objetivo en tiempo récord.",
+        "Working with Viernes Studio was a very rewarding experience. Their professionalism and agility enabled us to achieve our goal in record time.",
     },
     {
       id: 4,
@@ -43,7 +45,7 @@ export default function Home() {
       role: "Brand Manager",
       avatar: "/images/logo-yara.svg",
       content:
-        "Cuando pienso en Viernes, pienso en la efectividad de las estrategias de comunicación, enriquecidas a través de las ideas frescas y la experiencia de este equipo. Pero más allá de todo esto, el placer de encontrar un equipo amable, respetuoso y con disposición de hacer posible todo lo planteado.",
+        "When I think of Viernes, I think of the effectiveness of their communication strategies, enriched by the fresh ideas and experience of this team. But beyond all of this, there's the pleasure of working with a kind, respectful, and dedicated team, always willing to bring every idea to life.",
     },
   ];
 
@@ -68,9 +70,10 @@ export default function Home() {
       />
       <ServicesHome />
       <MotionDesignPower />
+      {isMobile ? <PricingHomeMobile /> : <PricingHome />}
       <div className="flex items-center justify-center my-10">
         <Button className="cardenio text-white text-5xl py-8 bg-emerald-800 w-[300px]">
-          portafolio
+          portfolio
         </Button>
       </div>
       <Portfolio />

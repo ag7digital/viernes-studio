@@ -43,7 +43,7 @@ export default function Portfolio() {
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6">
         {portfolioItems.map((item, index) => (
           <motion.div
             key={item.id}
@@ -51,7 +51,11 @@ export default function Portfolio() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
-            <Link href={`/portfolio/${item.slug}`}>
+            <Link
+              href={`/portfolio/${item.slug}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <motion.div
                 className="relative h-64 rounded-lg overflow-hidden cursor-pointer group"
                 onMouseEnter={() => setHoveredItem(item.id)}

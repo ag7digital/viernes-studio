@@ -2,156 +2,156 @@
   "items": [
     {
       "id": 1,
-      "title": "Agrosagi Extractum",
-      "slug": "agrosagi-extractum",
-      "image": "/images/portfolio/agrosagi-extractum.jpg",
-      "client": "Agrosagi",
-      "category": "Motion Reel",
-      "video": "9Jd3Vn9CwkI"
+      "title": "Aldor Corporate Video",
+      "slug": "video-corporativo-aldor",
+      "image": "/images/portfolio/Video-corporativo-Aldor.png",
+      "client": "Aldor",
+      "category": "Corporate video",
+      "video": "c4r5797l0R0"
     },
     {
       "id": 2,
-      "title": "Viernes Motion Reel 2017",
-      "slug": "viernes-motion-reel-2017",
-      "image": "/images/portfolio/motion-graphics-reel.jpg",
-      "client": "Viernes Studio",
+      "title": "FarmGo Lanzamiento Colombia – Yara",
+      "slug": "farmgo-lanzamiento-colombia-yara",
+      "image": "/images/portfolio/FarmGo-lazanamiento-colombia-Yara.png",
+      "client": "Yara",
       "category": "Motion Reel",
-      "video": "2Jx2JcOruPc"
+      "video": "BS0aeX7ZkRQ"
     },
     {
       "id": 3,
-      "title": "Institucional Aromasynt",
-      "slug": "institucional-aromasynt",
-      "image": "/images/portfolio/aromasynt.jpg",
+      "title": "Motion Reel - Viernes Studio",
+      "slug": "motion-reel-viernes-studio",
+      "image": "/images/portfolio/Motion-Reel-Viernes-Studio.png",
       "client": "Aromasynt",
       "category": "Motion Reel",
-      "video": "vsGb-fSkFy4"
+      "video": "XwwgenbFvEk"
     },
     {
       "id": 4,
-      "title": "Promocional KTS Mailing",
-      "slug": "promocional-kts-mailing",
-      "image": "/images/portfolio/kts.jpg",
-      "client": "KTS Mailing",
-      "category": "Video Promocional",
-      "video": "gznnJ30aQpU"
+      "title": "Apertura Evento Operaciones – Ara",
+      "slug": "apertura-evento-operacionaes-ara",
+      "image": "/images/portfolio/Apertura-Evento-Operaciones-Ara.png",
+      "client": "Ara",
+      "category": "Promotional Video",
+      "video": "VqP9I22csbE"
     },
     {
       "id": 5,
-      "title": "Asentia – Carval",
-      "slug": "asentia-carval",
-      "image": "/images/portfolio/carval.png",
+      "title": "Pimenton - Seminis",
+      "slug": "testimonial-pimenton-seminis",
+      "image": "/images/portfolio/Testimonial-Pimenton-Seminis.png",
       "client": "Carval",
-      "category": "Video Promocional",
-      "video": "2tfWse19ylY"
+      "category": "Testimonial Video",
+      "video": "IRO-qqb7sw8"
     },
     {
       "id": 6,
-      "title": "Video Promocional",
-      "slug": "video-promocional",
-      "image": "/images/portfolio/viernes-promocional.jpg",
+      "title": "Viernes Studio",
+      "slug": "promotional-video-viernes",
+      "image": "/images/portfolio/Video-Promocional-Viernes-Studio.png",
       "client": "Viernes Studio",
-      "category": "Video Promocional",
-      "video": "r-BPxikCegw"
+      "category": "Promotional Video",
+      "video": "7QoG9D-Keqo"
     },
     {
       "id": 7,
-      "title": "Imaginatón Tasty",
-      "slug": "imaginaton-tasty",
-      "image": "/images/portfolio/tasty.png",
-      "client": "Viernes Studio",
-      "category": "Video Promocional",
-      "video": "pY8C2pWDVs8"
+      "title": "Aveva – Schneider Electric",
+      "slug": "aveva-schneider-electric",
+      "image": "/images/portfolio/Aveva-Schneider-electric.png",
+      "client": "Schneider Electric",
+      "category": "Promotional Video",
+      "video": "vadYT_3bBPQ"
     },
     {
       "id": 8,
-      "title": "Promocional SEM Power",
-      "slug": "promocional-sem-power",
-      "image": "/images/portfolio/sem.jpg",
-      "client": "SEM Power",
-      "category": "Video Promocional",
-      "video": "-dUJarza4RU"
+      "title": "Reels agenda y morrales",
+      "slug": "reels-agenda-y-morrales",
+      "image": "/images/portfolio/Reels-agenda-y-morrales-Kiutpng.png",
+      "client": "Kiut",
+      "category": "Promotional Video",
+      "video": "rFZbxPxL8vk"
     },
     {
       "id": 9,
-      "title": "Yara Consume Local",
-      "slug": "yara-consume-local",
-      "image": "/images/portfolio/yara-consume-local.jpg",
+      "title": "YaraVita Colombia",
+      "slug": "yaravita-colombia",
+      "image": "/images/portfolio/YaraVita-Colombia-Yara.png",
       "client": "Yara",
-      "category": "Video Promocional",
-      "video": "kiB26EyjkW8"
+      "category": "Promotional Video",
+      "video": "v7w6LCFXIU8"
     },
     {
       "id": 10,
-      "title": "Reel Live Action 2018",
-      "slug": "reel-live-action-2018",
-      "image": "/images/portfolio/live-action-reel.jpg",
+      "title": "Reel Live Action & Motion Design",
+      "slug": "reel-ive-action-motion-design",
+      "image": "/images/portfolio/Reel-Live-Action-Motion-Design-Viernes-Studio.png",
       "client": "Viernes Studio",
-      "category": "Video Promocional",
+      "category": "Motion Reel",
       "video": "qz9BFfyz6dE"
     },
     {
       "id": 11,
-      "title": "PQRS – Riopaila Castilla",
-      "slug": "pqrs-riopaila-castilla",
-      "image": "/images/portfolio/riopaila.jpg",
-      "client": "Riopaila",
-      "category": "Motion Reel",
-      "video": "_VBKF8DJuPQ"
+      "title": "Ciencias Agropecuarias",
+      "slug": "ciencias-agropecuarias-unal",
+      "image": "/images/portfolio/Ciencias-Agropecuarias-UNAL.png",
+      "client": "UNAL",
+      "category": "Promotional Video",
+      "video": "jd9moHNWjyc"
     },
     {
       "id": 12,
-      "title": "Trendshoppers",
-      "slug": "trendshoppers",
-      "image": "/images/portfolio/trendshopers.jpg",
-      "client": "Trendshoppers",
-      "category": "Video Promocional",
-      "video": "cehH1F6ylJM"
+      "title": "Sika Ecommerce – Sika",
+      "slug": "sika-ecommerce–sika",
+      "image": "/images/portfolio/Sika-Ecommerce-Sika.png",
+      "client": "Sika",
+      "category": "Promotional Video",
+      "video": "9S1iAfffcEA"
     },
     {
       "id": 13,
-      "title": "Syngenta Ecoaguas 2018",
-      "slug": "syngenta-ecoaguas-2018",
-      "image": "/images/portfolio/syngenta-ecoaguas.jpg",
+      "title": "Vibrance Expectativa Syngenta",
+      "slug": "vibrance-expectativa-syngenta",
+      "image": "/images/portfolio/Vibrance-Expectativa-Syngenta.png",
       "client": "Syngenta Colombia",
-      "category": "Video Promocional",
-      "video": "rpV1yGUcyNU"
+      "category": "Promotional Video",
+      "video": "_2aWCzXMWaQ"
     },
     {
       "id": 14,
-      "title": "Promocional Plegarte",
-      "slug": "promocional-plegarte",
-      "image": "/images/portfolio/plegarte.png",
-      "client": "Plegarte",
-      "category": "Video Promocional",
-      "video": "ia-V4USPnQ4"
+      "title": "Tuvimos una idea YCP2017 – Yara",
+      "slug": "tuvimos-una-idea-ycp2017-yara",
+      "image": "/images/portfolio/Tuvimos-una-idea-YCP2017-Yara.png",
+      "client": "Yara",
+      "category": "Promotional Video",
+      "video": "QdYoN699Lv8"
     },
     {
       "id": 15,
-      "title": "Guardián del buen servicio – Universidad Nacional",
-      "slug": "guardian-del-buen-servicio-universidad-nacional",
-      "image": "/images/portfolio/guardian-unal.png",
-      "client": "Universidad Nacional",
-      "category": "Motion Reel",
-      "video": "3lpoM1l7ZDQ"
+      "title": "Video Promocional – Olivettos",
+      "slug": "video-promocional-olivettos",
+      "image": "/images/portfolio/Video-Promocional-Olivettos.png",
+      "client": "Olivettos",
+      "category": "Promotional Video",
+      "video": "AqyK3XSJOAQ"
     },
     {
       "id": 16,
-      "title": "CitiBank Workplace",
-      "slug": "citibank-workplace",
-      "image": "/images/portfolio/citibank.jpg",
-      "client": "CitiBank",
-      "category": "Motion Reel",
-      "video": "sStFPAksC-c"
+      "title": "Campaña Sostenibilidad RRSS – Sika",
+      "slug": "campana-sostenibilidad-rrss-sika",
+      "image": "/images/portfolio/campana-sostenibilidad-rrss-Sika.png",
+      "client": "Sika",
+      "category": "Promotional Video",
+      "video": "0mRRrNigFss"
     },
     {
       "id": 17,
-      "title": "Claro Día Olímpico",
-      "slug": "claro-dia-olimpico",
-      "image": "/images/portfolio/claro-olimpico.jpg",
-      "client": "Claro Colombia",
-      "category": "Video Promocional",
-      "video": "dkV-qblsHuc"
+      "title": "Reels regreso a clases – Kiut",
+      "slug": "reels-regreso-a-clases-kiut/",
+      "image": "/images/portfolio/Reels-regreso-a-clases-Kiut.png",
+      "client": "Kiut",
+      "category": "Motion Reel",
+      "video": "yn1WGZTgVg8"
     },
     {
       "id": 18,
@@ -159,61 +159,52 @@
       "slug": "equipo-claro-coldeportes",
       "image": "/images/portfolio/claro-coldeportes.jpg",
       "client": "Claro Colombia",
-      "category": "Video Promocional",
+      "category": "Promotional Video",
       "video": "n7P7TRkUGDc"
     },
     {
       "id": 19,
-      "title": "Cemex MIX3R",
-      "slug": "cemex-mix3r",
-      "image": "/images/portfolio/cemex.jpg",
-      "client": "Cemex",
-      "category": "Motion Reel",
-      "video": "KVksI3f0zVI"
+      "title": "Nuestro Café – Yara",
+      "slug": "nuestro-cafe-yara",
+      "image": "/images/portfolio/Nuestro-Cafe-Yara.png",
+      "client": "Yara",
+      "category": "Promotional Video",
+      "video": "x-iwfSQCCqo"
     },
     {
       "id": 20,
-      "title": "Pichichí Institucional",
-      "slug": "pichichi-institucional",
-      "image": "/images/portfolio/pichichi.jpg",
-      "client": "Ingenio Pichichí",
-      "category": "Video Corporativo",
-      "video": "H1g3HN6mBN8"
+      "title": "Video Lanzamiento Temporada A 2024 – Kiut",
+      "slug": "video-lanzamiento-temporada-a-2024-kiut",
+      "image": "/images/portfolio/Video-Lanzamiento-Temporada-A-2024-Kiut.png",
+      "client": "Kiut",
+      "category": "Corporate video",
+      "video": "nsifxNdBRVg"
     },
     {
       "id": 21,
       "title": "DHL Obsequios",
       "slug": "dhl-obsequios",
-      "image": "/images/portfolio/dhl.jpg",
+      "image": "/images/portfolio/Obsequios-DHL.png",
       "client": "DHL",
       "category": "Motion Reel",
       "video": "i8dnj0sRPL0"
     },
     {
       "id": 22,
-      "title": "Marketing News – Innovaction",
-      "slug": "marketing-news-innovaction",
-      "image": "/images/portfolio/marketing-innovation.jpg",
+      "title": "North America Day In The Life – Yara",
+      "slug": "north-america-day-in-the-life-yara",
+      "image": "/images/portfolio/North-America-Day-In-The-Life-Yara.png",
       "client": "Marketing News",
       "category": "Motion Reel",
-      "video": "_2Pav1xqzlU"
-    },
-    {
-      "id": 23,
-      "title": "B-Secure – Phishing",
-      "slug": "b-secure-phishing",
-      "image": "/images/portfolio/besecure-phishing.jpg",
-      "client": "B-Secure",
-      "category": "Motion Reel",
-      "video": "J25f_Wv8Pho"
+      "video": "pTbVhArbt4w"
     },
     {
       "id": 24,
-      "title": "Video explicativo – Mastercop",
-      "slug": "video-explicativo-mastercop",
-      "image": "/images/portfolio/adama-mastercop.jpg",
-      "client": "Adamá",
-      "category": "Video Explicativo",
+      "title": "Mastercop - Adama",
+      "slug": "matercop-adama",
+      "image": "/images/portfolio/Mastercop-Adama.png",
+      "client": "Adama",
+      "category": "Explainer Video",
       "video": "j6BI_kcJT-4"
     },
     {
@@ -222,43 +213,34 @@
       "slug": "barranqueros-travel-paintball-combat-zone",
       "image": "/images/portfolio/barranqueros.png",
       "client": "Barranqueros Travel",
-      "category": "Video Promocional",
+      "category": "Promotional Video",
       "video": "NzddlIMWQqs"
     },
     {
       "id": 26,
-      "title": "Nutrición deportiva Zenú",
-      "slug": "nutricion-deportiva-zenu",
-      "image": "/images/portfolio/zenu.jpg",
+      "title": "Nutrición del ciclista – Zenú",
+      "slug": "nutricion-del-ciclista-zenu",
+      "image": "/images/portfolio/Nutricion-del-ciclista-Zenu.png",
       "client": "Zenú",
-      "category": "Video Promocional",
+      "category": "Promotional Video",
       "video": "ha1-SWv9LyM"
     },
     {
       "id": 27,
       "title": "Colinagro Institucional",
       "slug": "colinagro-institucional",
-      "image": "/images/portfolio/colinagro.jpg",
+      "image": "/images/portfolio/Video-Institucional-Colinagro.png",
       "client": "Colinagro",
-      "category": "Video Corporativo",
+      "category": "Corporate video",
       "video": "1OoT1v848fw"
-    },
-    {
-      "id": 28,
-      "title": "Yara Champions Program Café",
-      "slug": "yara-champions-program-cafe",
-      "image": "/images/portfolio/yara.jpg",
-      "client": "Yara Colombia",
-      "category": "Video Corporativo",
-      "video": "tD9RzQzky-8"
     },
     {
       "id": 29,
       "title": "Aquaoccidente potabilización",
       "slug": "aquaoccidente-potabilizacion",
-      "image": "/images/portfolio/aquaoccidente.jpg",
+      "image": "/images/portfolio/Video-Comercial-2022-Aquaoccidente.png",
       "client": "Aquaoccidente",
-      "category": "Video Promocional",
+      "category": "Comercial Video",
       "video": "FHxHI3_-9O4"
     },
     {
@@ -267,7 +249,7 @@
       "slug": "promocional-blue-fox",
       "image": "/images/portfolio/bluefox.jpg",
       "client": "Blue Fox",
-      "category": "Video Promocional",
+      "category": "Promotional Video",
       "video": "0lYPqAZTlXU"
     }
   ]

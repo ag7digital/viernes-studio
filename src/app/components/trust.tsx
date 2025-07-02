@@ -13,12 +13,9 @@ export default function Trust() {
           <div className="flex justify-start items-start">
             <p className="montserrat tx-gray text-center text-2xl md:text-xl mt-10 mx-10 md:mr-10 ">
               Fortunately, for the past 10 years, our team has supported
-              hundreds of professionals by {" "}
-              <br />              
-              <span className="font-bold">
-                CREATING STRATEGIC
-              </span>{" "}
-              messages that achieve their <span className="font-bold">GOALS</span>.
+              hundreds of professionals by <br />
+              <span className="font-bold">CREATING STRATEGIC</span> messages
+              that achieve their <span className="font-bold">GOALS</span>.
             </p>
           </div>
           {/* Right column */}
@@ -34,7 +31,7 @@ export default function Trust() {
         </div>
         <div className="flex justify-end">
           <Image
-            src="/images/titulo-confianza.png"
+            src="/images/trust-title.png"
             alt="Quienes confían en nosotros"
             width={750}
             height={288}

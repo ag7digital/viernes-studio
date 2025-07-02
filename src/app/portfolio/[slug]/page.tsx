@@ -1,9 +1,41 @@
 import { notFound } from "next/navigation";
 import { getPortfolioItemBySlug, getPortfolioItems } from "@/lib/portfolio";
 import { VideoPlayer } from "@/app/components/video-embed";
+import { Metadata, ResolvingMetadata } from "next";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateMetadata(
+  props: PageProps,
+  _parent: ResolvingMetadata,
+): Promise<Metadata> {
+  const { slug } = await props.params;
+
+  const item = await getPortfolioItemBySlug(slug);
+
+  if (!item) {
+    return {
+      title: "Service not found | Portfolio",
+    };
+  }
+
+  return {
+    title: `Portfolio | ${item?.title}`,
+    description: item.title,
+    openGraph: {
+      title: item.title,
+      description: `${item.title} | ${item.client}`,
+      url: `https://viernes-studio.com/porfolio/${slug}`,
+      type: "profile",
+      images: [
+        {
+          url: item.image,
+        },
+      ],
+    },
+  };
 }
 
 export default async function PortfolioItemPage({ params }: PageProps) {
