@@ -12,6 +12,8 @@ interface IMotionServiceProps {
   position: "L" | "R";
   videoLink: string;
   backgroundImage: string;
+  price?: string;
+  duration?: string;
 }
 
 export default function MotionService(props: IMotionServiceProps) {
@@ -51,15 +53,15 @@ export default function MotionService(props: IMotionServiceProps) {
                       rel="noopener noreferrer"
                       className="pointer"
                     >
-                      Mira un Demo
+                      Watch a Demo
                     </a>
                   </Button>
                 </div>
               </div>
             </div>
             <div className="flex flex-col w-[60%]">
-              <h3 className="cardenio tx-green md:text-5xl font-medium">
-                incluye:
+              <h3 className="cardenio tx-green md:text-5xl font-bold">
+                it includes:
               </h3>
               <div className="flex flex-col mt-5">
                 <ul>
@@ -73,13 +75,19 @@ export default function MotionService(props: IMotionServiceProps) {
                           alt="check"
                           className="mr-2"
                         />
-                        <span className="montserrat tx-gray md:text-[1.2rem]">
+                        <span className="montserrat tx-gray md:text-[1.2rem] font-medium">
                           {service}
                         </span>
                       </div>
                     </li>
                   ))}
                 </ul>
+              </div>
+              <div className="flex items-center tx-gray mt-5 gap-3">
+                <span className="cardenio text-3xl font-bold">
+                  up to {props.duration} price:
+                </span>
+                <span className="moon text-[1.3rem]">USD {props.price}</span>
               </div>
             </div>
           </div>
@@ -88,8 +96,8 @@ export default function MotionService(props: IMotionServiceProps) {
         {props.position === "R" && (
           <div className="flex items-center justify-center ml-20">
             <div className="flex flex-col w-full">
-              <h3 className="cardenio tx-green md:text-5xl font-medium">
-                incluye:
+              <h3 className="cardenio tx-green md:text-5xl font-bold">
+                it includes:
               </h3>
               <div className="flex flex-col mt-5">
                 <ul>
@@ -103,13 +111,19 @@ export default function MotionService(props: IMotionServiceProps) {
                           alt="check"
                           className="mr-2"
                         />
-                        <span className="montserrat tx-gray md:text-[1.2rem]">
+                        <span className="montserrat tx-gray md:text-[1.2rem] font-medium">
                           {service}
                         </span>
                       </div>
                     </li>
                   ))}
                 </ul>
+              </div>
+              <div className="flex items-center tx-gray mt-5 gap-3">
+                <span className="cardenio text-3xl font-bold">
+                  up to {props.duration} price:
+                </span>
+                <span className="moon text-[1.3rem]">USD {props.price}</span>
               </div>
             </div>
             <div className="flex flex-col w-full ml-12">

@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function PricingHome() {
@@ -11,12 +12,14 @@ export default function PricingHome() {
           <div className="flex justify-between items-center">
             {/** buttons */}
             <div className="flex flex-col gap-10 h-auto justify-center w-full ml-30">
-              <Image
-                src="/images/kis-button.png"
-                width={350}
-                height={150}
-                alt="Keep it simple therapy button"
-              />
+              <Link href="/pricing/#keep-it-simple">
+                <Image
+                  src="/images/kis-button.png"
+                  width={350}
+                  height={150}
+                  alt="Keep it simple therapy button"
+                />
+              </Link>
               <Image
                 src="/images/mib-button.png"
                 width={350}

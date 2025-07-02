@@ -11,6 +11,8 @@ interface IMotionServiceMobileProps {
   videoLink: string;
   backgroundImage: string;
   backgroundColor: string;
+  price?: string;
+  duration?: string;
 }
 
 export default function MotionServiceMobile(props: IMotionServiceMobileProps) {
@@ -40,14 +42,16 @@ export default function MotionServiceMobile(props: IMotionServiceMobileProps) {
                 rel="noopener noreferrer"
                 className="pointer"
               >
-                Mira un Demo
+                Watch a Demo
               </a>
             </Button>
           </div>
         </div>
         <div className="flex flex-col w-full items-center mt-10">
-          <h3 className="cardenio text-white text-5xl font-medium">incluye:</h3>
-          <div className="flex flex-col mt-5">
+          <h3 className="cardenio text-white text-5xl font-medium">
+            it includes:
+          </h3>
+          <div className="flex flex-col mt-5 px-10">
             <ul>
               {props.services.map((service, idx) => (
                 <li key={`simple-${idx}`}>
@@ -59,13 +63,19 @@ export default function MotionServiceMobile(props: IMotionServiceMobileProps) {
                       alt="check"
                       className="mr-2"
                     />
-                    <span className="montserrat tx-gray md:text-[1.2rem]">
+                    <span className="montserrat tx-gray md:text-[1.2rem] font-medium">
                       {service}
                     </span>
                   </div>
                 </li>
               ))}
             </ul>
+          </div>
+          <div className="flex items-center tx-gray mt-5 gap-3">
+            <span className="cardenio text-3xl font-bold">
+              up to {props.duration} price:
+            </span>
+            <span className="moon text-[1.3rem]">USD {props.price}</span>
           </div>
         </div>
       </div>
