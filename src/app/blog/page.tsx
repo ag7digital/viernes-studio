@@ -18,7 +18,7 @@ export const metadata = {
     title: "Blog | Meu Site",
     description:
       "Este es un espacio donde las ideas, la creatividad y el conocimiento vuelan… ¡Tan alto como nuestro avión!",
-    url: "https://es.viernes-studio.com/blog",
+    url: "https://viernes-studio.com/blog",
     siteName: "Viernes Studio",
     type: "website",
   },
@@ -32,7 +32,7 @@ export default async function Blog(props: {
   const perPage = 9;
   // Busque os posts do WordPress
   const res = await fetch(
-    `https://viernes-studio.com/wp-json/wp/v2/posts?per_page=${perPage}&page=${page}&order=desc&orderby=date&_embed&status=publish&categories_exclude=6`,
+    `${process.env.NEXT_PUBLIC_CMS_BASE_URL}/wp-json/wp/v2/posts?per_page=${perPage}&page=${page}&order=desc&orderby=date&_embed&status=publish&categories_exclude=6`,
     {
       cache: "no-store",
     },

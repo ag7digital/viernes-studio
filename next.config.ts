@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "viernes-studio.com",
+        hostname: "cms.viernes-studio.com",
         pathname: "/wp-content/**",
       },
     ],

@@ -21,7 +21,7 @@ export async function generateMetadata(
   const params = await props.params;
   // Faça fetch dos dados do post, por exemplo:
   const res = await fetch(
-    `https://viernes-studio.com/wp-json/wp/v2/posts?slug=${params.slug}`,
+    `${process.env.NEXT_PUBLIC_CMS_BASE_URL}/wp-json/wp/v2/posts?slug=${params.slug}`,
   );
   const posts = await res.json();
   const post = posts[0];
@@ -54,7 +54,7 @@ export default async function BlogPostPage(props: {
 }) {
   const params = await props.params;
   const res = await fetch(
-    `https://viernes-studio.com/wp-json/wp/v2/posts?slug=${params.slug}&_embed`,
+    `${process.env.NEXT_PUBLIC_CMS_BASE_URL}/wp-json/wp/v2/posts?slug=${params.slug}&_embed`,
     {
       cache: "no-store",
     },
