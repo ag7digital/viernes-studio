@@ -8,21 +8,13 @@ export default function VideoCorporativo() {
   return (
     <>
       {/* Header */}
-      <div className="flex w-full h-screen">
-        <div className="relative w-full h-full">
-          <h1 style={{ display: "hidden", color: "#fff" }}>
-            Transmitimos mensajes con guiones y visuales asombrosos que cumplen
-            con los objetivos de comunicación y marketing de nuestros clientes.
-          </h1>
+      <div className="flex items-center justify-center w-full h-[50vh] md:h-[100vh] bg-[url(/images/corporate-header-bg.png)] bg-no-repeat bg-center">
+        <div className="flex items-center justify-center py-5 ">
           <Image
-            src={
-              isMobile
-                ? "/images/video-corporativo-header-bg-mobile.png"
-                : "/images/corporate-header.png"
-            }
-            className="object-fill"
-            fill
-            alt="videos corporativos Header"
+            src="/images/corporate-header-title.png"
+            width={isMobile ? 350 : 600}
+            height={600}
+            alt=""
           />
         </div>
       </div>
@@ -41,10 +33,10 @@ export default function VideoCorporativo() {
             </div>
           )}
           <div className="flex flex-col w-full justify-center">
-            <h2 className="moon text-white text-5xl mt-10 md:mt-0">
+            <h2 className="moon text-white text-4xl md:text-5xl mt-10 md:mt-0">
               Corporate
             </h2>
-            <h3 className="spicy text-white text-3xl md:text-5xl mt-4">
+            <h3 className="spicy text-white text-4xl md:text-5xl mt-4">
               Your company has many stories to tell!
             </h3>
             <p className="montserrat text-black mt-5 font-medium text-[1.2rem] md:text-[1.3rem]">

@@ -17,8 +17,8 @@ export default function VideoExplicativo() {
           <Image
             src={
               isMobile
-                ? "/images/explicativo-header-bg-mobile.png"
-                : "/images/explicativo-header-bg.png"
+                ? "/images/explainer-header-bg-mobile.png"
+                : "/images/explainer-header-bg-desktop.png"
             }
             className="object-fill"
             fill
@@ -30,10 +30,10 @@ export default function VideoExplicativo() {
       <div className="flex bg-no-repeat items-center justify-center bg-cover h-auto bg-[url(/images/explainer-bg.png)]">
         <div className="flex md:w-[80%] w-full px-5 md:px-0 items-center justify-center">
           <div className="flex flex-col w-full justify-center md:ml-15">
-            <h2 className="moon text-white text-5xl mt-10 md:mt-0">
+            <h2 className="moon text-white text-4xl md:text-5xl mt-10 md:mt-0">
               Explainer Video
             </h2>
-            <h3 className="spicy text-white text-3xl md:text-5xl mt-4">
+            <h3 className="spicy text-white text-5xl md:text-5xl mt-4">
               People love clarity!
             </h3>
             <p className="montserrat text-black mt-5 font-medium text-[1.2rem] md:text-[1.3rem]">

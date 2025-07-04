@@ -14,25 +14,39 @@ export default function VideoPromocional() {
   return (
     <>
       {/* Header */}
-      <div className="flex w-full h-[300px] md:mt-0 md:h-screen">
-        <div className="relative w-full h-full">
-          <h1 style={{ display: "hidden", color: "#fff" }}>
-            Investigamos, experimentamos y diseñamos productos para afrontar
-            cada proyecto con pasión y dedicación.
-          </h1>
+      <div className="flex items-center justify-center w-full h-[50vh] md:h-[100vh] bg-[url(/images/training-header-bg.png)] bg-no-repeat bg-center">
+        <div
+          className="flex justify-evenly content-evenly gap-10 w-[80%]"
+          style={{ display: isMobile ? "none" : "flex" }}
+        >
           <Image
-            src={
-              isMobile
-                ? "/images/header-capacitacion.png"
-                : "/images/header-capacitacion.png"
-            }
-            className="object-contain md:object-fill"
-            fill
-            alt="videos corporativos Header"
-            sizes="(max-width: 1921px) 100vw, 1921px"
+            src="/images/training-header-avatar.png"
+            width={400}
+            height={600}
+            alt=""
+          />
+
+          <Image
+            src="/images/promotional-header-title.png"
+            width={400}
+            height={600}
+            alt=""
+          />
+        </div>
+
+        <div
+          className="flex justify-evenly content-evenly gap-10 w-[80%]"
+          style={{ display: isMobile ? "flex" : "none" }}
+        >
+          <Image
+            src="/images/promotional-header-title.png"
+            width={400}
+            height={600}
+            alt=""
           />
         </div>
       </div>
+
       {/* HERO SECTION */}
       <div className="flex bg-no-repeat items-center justify-center bg-cover h-auto bg-[url(/images/corporate-bg.png)]">
         <div className="flex md:w-[80%] w-full px-5 md:px-0">
@@ -51,7 +65,7 @@ export default function VideoPromocional() {
             <h2 className="moon text-white text-4xl md:text-5xl mt-10 md:mt-0">
               Training Video
             </h2>
-            <h3 className="spicy text-white text-3xl md:text-5xl mt-4">
+            <h3 className="spicy text-white text-4xl md:text-5xl mt-4">
               We all have room to grow and learn!
             </h3>
             <p className="montserrat text-black mt-5 font-medium text-[1.2rem] md:text-[1.3rem]">

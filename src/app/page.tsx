@@ -10,6 +10,7 @@ import Portfolio from "./components/portfolio";
 import { useIsMobile } from "./hooks/mobile";
 import PricingHome from "./components/pricing-home";
 import PricingHomeMobile from "./components/pricing-home-mobile";
+import { Download, DownloadIcon } from "lucide-react";
 
 export default function Home() {
   const isMobile = useIsMobile();
@@ -49,6 +50,15 @@ export default function Home() {
     },
   ];
 
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Portafolio-Latam.pdf";
+    link.download = "Portafolio-Latam.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <>
       {!isMobile && (
@@ -71,8 +81,12 @@ export default function Home() {
       <ServicesHome />
       <MotionDesignPower />
       {isMobile ? <PricingHomeMobile /> : <PricingHome />}
-      <div className="flex items-center justify-center my-10">
-        <Button className="cardenio text-white text-5xl py-8 bg-emerald-800 w-[300px]">
+      <div className="flex items-center justify-center my-10 ">
+        <Button
+          className="cardenio text-white text-5xl py-8 bg-emerald-800 w-[300px] hover:bg-emerald-800"
+          onClick={handleDownload}
+        >
+          <Download size={64} className="mr-2 h-4 w-4" />
           portfolio
         </Button>
       </div>
