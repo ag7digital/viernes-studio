@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import { Montserrat } from "next/font/google";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const cardenio = localFont({
   src: [
@@ -55,6 +56,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="GTM-WG84FLWX" />
       <body
         className={`${cardenio.variable} ${montserrat.variable} ${playfullist.variable} ${spicyChicken.variable} ${moonGetHeavy.variable}`}
       >

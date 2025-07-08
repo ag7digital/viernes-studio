@@ -5,6 +5,8 @@ import type React from "react";
 import { useState } from "react";
 import { motion } from "motion/react";
 import Link from "next/link";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./ui/dialog";
+import { Button } from "./ui/button";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -14,6 +16,11 @@ export default function ContactForm() {
     mensaje: "",
     acceptPolicy: false,
   });
+  const [status, setStatus] = useState<
+    "idle" | "success" | "error" | "loading"
+  >("idle");
+
+  const [open, setOpen] = useState(false);
 
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -32,20 +39,51 @@ export default function ContactForm() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 2000));
+    const portalId = process.env.NEXT_PUBLIC_HUBSPOT_PORTAL_ID;
+    const formId = process.env.NEXT_PUBLIC_HUBSPOT_FORM_CONTACT_ID;
 
-    console.log("Form submitted:", formData);
-    setIsSubmitting(false);
+    const endpoint = `https://api.hsforms.com/submissions/v3/integration/submit/${portalId}/${formId}`;
 
-    // Reset form
-    setFormData({
-      nombre: "",
-      apellido: "",
-      email: "",
-      mensaje: "",
-      acceptPolicy: false,
-    });
+    try {
+      const res = await fetch(endpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          fields: [
+            { objectTypeId: "0-1", name: "email", value: formData.email },
+            { objectTypeId: "0-1", name: "firstname", value: formData.nombre },
+            { objectTypeId: "0-1", name: "lastname", value: formData.apellido },
+            { objectTypeId: "0-1", name: "message", value: formData.mensaje },
+          ],
+          context: {
+            pageUri: window.location.href,
+            pageName: document.title,
+          },
+        }),
+      });
+
+      if (res.ok) {
+        setStatus("success");
+        setIsSubmitting(false);
+        setOpen(true);
+
+        // Reset form
+        setFormData({
+          nombre: "",
+          email: "",
+          mensaje: "",
+          apellido: "",
+          acceptPolicy: false,
+        });
+      } else {
+        setStatus("error");
+        setOpen(false);
+      }
+    } catch {
+      setStatus("error");
+    }
   };
 
   return (
@@ -150,7 +188,7 @@ export default function ContactForm() {
               voluntarily provided in its database and which will be treated in
               accordance with the{" "}
               <Link
-                href="/politica-privacidad"
+                href="/data-protection-policy"
                 className="text-teal-600 underline cursor-pointer hover:text-teal-700"
               >
                 Data Protection Policy
@@ -172,6 +210,25 @@ export default function ContactForm() {
           </div>
         </motion.form>
       </div>
+      <Dialog open={open} onOpenChange={setOpen}>
+        <DialogContent className="max-w-md bg-white border-0 h-auto w-[330px] md:w-auto flex flex-col justify-center items-center">
+          <DialogHeader className="flex items-center">
+            <DialogTitle className="cardenio text-3xl text-emerald-800 ">
+              Recibimos tu mensaje!
+            </DialogTitle>
+          </DialogHeader>
+          <div className="py-2 montserrat text-[1.2rem]">
+            Hemos recibido tu mensaje y nos pondremos en contacto contigo lo
+            antes posible.
+          </div>
+          <Button
+            onClick={() => setOpen(false)}
+            className="cardenio text-3xl py-8 w-[100px] bg-emerald-600 text-white"
+          >
+            Cerrar
+          </Button>
+        </DialogContent>
+      </Dialog>
     </section>
   );
 }

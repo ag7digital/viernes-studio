@@ -52,7 +52,7 @@ export default function Home() {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Portafolio-Latam.pdf";
+    link.href = "/portfolio/Portafolio-Latam.pdf";
     link.download = "Portafolio-Latam.pdf";
     document.body.appendChild(link);
     link.click();
@@ -80,7 +80,7 @@ export default function Home() {
       />
       <ServicesHome />
       <MotionDesignPower />
-      {isMobile ? <PricingHomeMobile /> : <PricingHome />}
+      {/* {isMobile ? <PricingHomeMobile /> : <PricingHome />} */}
       <div className="flex items-center justify-center my-10 ">
         <Button
           className="cardenio text-white text-5xl py-8 bg-emerald-800 w-[300px] hover:bg-emerald-800"
