@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { VideoPlayer } from "./video-embed";
@@ -21,15 +19,15 @@ export default function Hero() {
           {/* Right column - Content */}
           <div className="flex flex-col items-center">
             <div className="flex flex-col items-center">
-              <span className="spicy text-white text-6xl content-center">
+              <span className="spicy text-white text-5xl md:text-6xl content-center">
                 Do you know the classic <br />
               </span>
-              <span className="moon text-white text-[1.2rem] md:text-2xl content-center uppercase">
+              <span className="moon text-white text-[1rem] md:text-2xl text-center mt-5 uppercase">
                 "strategic communication disorder"?
               </span>
             </div>
             <div className="flex mt-8 items-center justify-center">
-              <span className="moon text-2xl md:text-3xl font-bold tx-gray text-center">
+              <span className="moon text-2xl md:text-3xl font-medium tx-gray text-center">
                 We’re not the only ones saying it
               </span>
             </div>

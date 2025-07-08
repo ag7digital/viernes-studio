@@ -99,7 +99,7 @@ export default function Footer() {
               <div>
                 <div className="flex items-center justify-center">
                   <h3 className="cardenio text-xl md:text-3xl font-bold mb-6">
-                    ENCUÉNTRENOS EN REDES
+                    FIND US AT
                   </h3>
                 </div>
 
@@ -157,8 +157,8 @@ export default function Footer() {
             viewport={{ once: true }}
           >
             <p>
-              &copy; 2024 Viernes Estrategia Audiovisual SAS. Todos los derechos
-              reservados.
+              &copy; 2024 Viernes Estrategia Audiovisual SAS. All rights
+              reserved.
             </p>
           </motion.div>
         </div>

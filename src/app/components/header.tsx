@@ -42,6 +42,7 @@ export default function Header() {
                 height={isMobile ? 72 : 150}
                 alt="Somos Viernes"
                 className="rounded-[50%] ml-2 w-[80px] h-[80px] md:w-[150px] md:h-[150px] lg:w-[150x] lg:h-[150x]"
+                priority
               />
             </Link>
           </div>
