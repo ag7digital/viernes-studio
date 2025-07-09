@@ -8,14 +8,14 @@ export default function Industries() {
   return (
     <>
       {/* Header */}
-      <div className="flex  items-center justify-center w-full md:h-[90vh] bg-[url(/images/industrias-header-bg.png)] bg-no-repeat md:bg-cover bg-center py-10">
-        <div className="container w-[80%]">
+      <div className="flex items-center justify-center w-full md:h-screen bg-[url(/images/industrias-header-bg.png)] bg-no-repeat md:bg-cover bg-center py-10">
+        <div className="flex w-[80%]">
           <div className="flex items-center justify-center gap-10 my-15">
             {!isMobile && (
               <Image
                 src="/images/industrias-avatar.png"
-                width={284}
-                height={754}
+                width={254}
+                height={600}
                 alt=""
               />
             )}
