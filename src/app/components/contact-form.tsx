@@ -83,6 +83,7 @@ export default function ContactForm() {
       }
     } catch {
       setStatus("error");
+      setOpen(false);
     }
   };
 
@@ -214,18 +215,18 @@ export default function ContactForm() {
         <DialogContent className="max-w-md bg-white border-0 h-auto w-[330px] md:w-auto flex flex-col justify-center items-center">
           <DialogHeader className="flex items-center">
             <DialogTitle className="cardenio text-3xl text-emerald-800 ">
-              Recibimos tu mensaje!
+              We received your message!
             </DialogTitle>
           </DialogHeader>
           <div className="py-2 montserrat text-[1.2rem]">
-            Hemos recibido tu mensaje y nos pondremos en contacto contigo lo
-            antes posible.
+            We've received your message and will get back to you as soon as
+            possible.
           </div>
           <Button
             onClick={() => setOpen(false)}
             className="cardenio text-3xl py-8 w-[100px] bg-emerald-600 text-white"
           >
-            Cerrar
+            Close
           </Button>
         </DialogContent>
       </Dialog>
