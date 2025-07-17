@@ -106,7 +106,7 @@ export default function MenuOverlay() {
               LATAM
             </a>
             <a
-              href="https://viernes-studio.com"
+              href="https://www.viernes-studio.com"
               className="flex items-center gap-2 text-white"
             >
               <Globe size={32} />
