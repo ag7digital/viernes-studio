@@ -83,6 +83,7 @@ export default function ContactForm() {
       }
     } catch {
       setStatus("error");
+      setOpen(false);
     }
   };
 
