@@ -11,7 +11,7 @@ export default function IndustriesImage() {
   };
   return (
     <>
-      <div className="flex only-desktop">
+      <div className="hidden md:flex lg:flex">
         <img
           src="/images/industries-english.png"
           alt="Industries"
@@ -85,7 +85,7 @@ export default function IndustriesImage() {
           />
         </map>
       </div>
-      <div className="grid grid-cols-1 gap-3 px-10 md:hidden">
+      <div className="grid grid-cols-1 gap-3 px-10 md:hidden lg:hidden sm:grid">
         <Button className="cardenio tx-gray font-semibold text-[1.4rem] py-5 px-5 mb-5 bg-[#91D179] hover:bg-[#91d179]">
           <Link
             href="https://youtube.com/playlist?list=PLCBy57mI0AAG33aUZMbhk1xf56wVs4Edr&si=TNj_JH8Q9b_FnIyZ"
