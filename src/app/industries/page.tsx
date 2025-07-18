@@ -35,8 +35,8 @@ export default function Industries() {
         </div>
       </div>
 
-      <div className="flex w-full md:flex-row flex-col h-auto bg-[url(/images/industrias-hero-bg.png)] bg-no-repeat md:bg-cover bg-center justify-between">
-        <div className="flex flex-col justify-center items-center w-full md:w-[50%] md:ml-30 pt-10">
+      <div className="flex w-full md:flex-row flex-col min-h-[80vh] bg-[url(/images/industrias-hero-bg.png)] bg-no-repeat md:bg-cover bg-center items-center justify-center md:py-10">
+        <div className="flex flex-col justify-center items-center w-full md:w-full md:ml-30 pt-10">
           <p className="montserrat text-white text-2xl text-center md:text-left md:text-3xl font-bold px-5 pb-10">
             We turn ideas into high-impact AUDIOVISUAL content. Our expertise
             lies in CREATING videos and assets tailored to the unique needs of
@@ -48,7 +48,9 @@ export default function Industries() {
             Brand MESSAGE.
           </p>
         </div>
-        <IndustriesImage />
+        <div className="flex md:ml-20 items-center justify-center w-full">
+          <IndustriesImage />
+        </div>
       </div>
     </>
   );
