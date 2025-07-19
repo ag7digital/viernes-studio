@@ -15,7 +15,7 @@ export default function BlogForm() {
   >("idle");
 
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
