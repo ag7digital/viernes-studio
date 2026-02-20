@@ -46,7 +46,25 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Viernes Studio",
   description:
-    "Vídeos Corporativos | Producción audiovisual, videos institucionales, videos para empresas, mercadeo, marketing, coworking, multimedia, interactividad",
+    "Corporate Videos | Audiovisual production, institutional videos, business videos, marketing, multimedia, interactivity",
+  metadataBase: new URL("https://viernes-studio.com"),
+  openGraph: {
+    title: "Viernes Studio",
+    description:
+      "Audiovisual production for companies in Latin America. Corporate, institutional and commercial videos with strategic focus.",
+    url: "https://viernes-studio.com",
+    siteName: "Viernes Studio",
+    locale: "en_US",
+    type: "website",
+    images: [
+      {
+        url: "/images/Logo-Viernes.png",
+        width: 1230,
+        height: 1230,
+        alt: "Viernes Studio Logo",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
